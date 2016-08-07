@@ -45,3 +45,5 @@ captures/
 
 # Remove sensible data
 gradle.properties
+app/google-services.json
+app/fabric.properties
