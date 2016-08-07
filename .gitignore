@@ -34,7 +34,14 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
+.idea/*
 
 # Keystore files
 *.jks
+
+*.iml
+.idea/*
+.idea/libraries
+
+# Remove sensible data
+gradle.properties
