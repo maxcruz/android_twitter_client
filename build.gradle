@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    compileSdkVersion = 24
+    buildToolsVersion = '24.0.0'
+    minSdkVersion = 16
+    targetSdkVersion = 24
+    supportLibraryVersion = '24.1.1'
+    twitterVersion = '1.14.1@aar'
+    butterKnifeVersion = '8.1.0'
+    eventbusVersion = '3.0.0'
+    javaPoetVersion = '1.7.0'
+    daggerVersion = '2.2'
+    glideVersion = '3.7.0'
+    jsrVersion = '1.0'
+}
