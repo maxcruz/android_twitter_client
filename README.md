@@ -2,7 +2,7 @@
 
 Este es un cliente sencillo de Twitter que obtiene las imágenes y los hashtag con más "me gusta" para el usuario autenticado.
 
-![Tab Imágenes](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Tab de imágenes")
+![Tab Imágenes](./screenshots/2-images.png "Tab de imágenes")
 
 Para que funcione, se debe crear una aplicación en [Twitter](https://dev.twitter.com/) para obtener un TWITTER_KEY y un TWITTER_SECRET. Adicional es necesario integrar [Fabric](https://fabric.io/kits/android/twitterkit/install) para obtener un FABRIC_API_KEY. Las llaves generadas se deben agregar en un archivo __gradle.properties__, dentro de la raíz del proyecto.
 
@@ -29,5 +29,5 @@ TODO:
 ## Pantallas:
 
 * [Login](./screenshots/1-login.png)
-* [Tab de imágenes](./screenshots/2-add_contact.png)
-* [Tab de hashtags](./screenshots/3-user_list.png)
+* [Tab de imágenes](./screenshots/2-images.png)
+* [Tab de hashtags](./screenshots/3-hashtags.png)
